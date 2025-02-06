@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crear un formulario de encuesta</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Formulario de encuesta de FreeCodeCamp</h1>
+    <p id="description">Gracias por tomarte el tiempo de ayudarnos a mejorar el programa.</p>
+    <form id="survey-form">
+      <label id="name-label">
+        <p>Nombre</p>
+        <input id="name" type="text" placeholder="Ingresa tu nombre" required />
+      </label>
+      <label id="email-label">
+        <p>Email</p>
+        <input id="email" type="email" placeholder="Ingresa tu Email" required />
+      </label>
+      <label id="number-label">
+        <p>Edad</p>
+        <input id="number" type="number" max="120" min="13" placeholder="Ingresa tu Edad" required />
+      </label>
+
+      <p>Cual es tu ocupacion ahora mismo?</p>
+      <select id="dropdown" name="role" required>
+        <option disabled selected value>Selecciona una ocupacion</option>
+        <option value="estudiante">Estudiante</option>
+        <option value="trabajador">Trabajador a tiempo completo</option>
+        <option value="aprendiz">Aprendiz a tiempo completo</option>
+        <option value="prefiero">Prefiero no decirlo</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <p>Recomendarias nuestro programa a un amigo?</p>
+      <label id="radio-label">
+        <input id="radio" type="radio" name="recomendacion" value="definitivamente" checked /> Definitivamente
+      </label>
+
+      <label id="radio-label">
+        <input id="radio" type="radio" name="recomendacion" value="talvez" /> Tal vez
+      </label>
+
+      <label id="radio-label">
+        <input id="radio" type="radio" name="recomendacion" value="no-seguro" /> No estoy seguro
+      </label>
+
+      <p>Que te gustaria ver mas adelante (Elegir mas de uno)</p>
+      <label id="checkbox-label">
+        <input id="checkbox" type="checkbox" name="prefer" value="back-end-projects" /> Proyectos Back-end
+      </label>
+      <label id="checkbox-label">
+        <input id="checkbox" type="checkbox" name="prefer" value="front-end-projects" /> Proyectos Front-end
+      </label>
+
+      <label id="checkbox-label">
+        <input id="checkbox" type="checkbox" name="prefer" value="front-end-projects" /> Proyectos sobre paginas 3d
+      </label>
+
+      <label id="checkbox-label">
+        <input id="checkbox" type="checkbox" name="prefer" value="front-end-projects" /> Proyectos sobre javascript
+      </label>
+
+      <p>Algun comentario o sugerencia?</p>
+      <label id="textarea-label">
+        <textarea id="text-area" name="comentarios" placeholder="Ingresa tu comentario aqui."></textarea>
+      </label>
+
+      <label id="submit-label">
+        <button type="submit" id="submit" >Submit</button>
+      </label>
+    </form>
+  </body>
+</html>
