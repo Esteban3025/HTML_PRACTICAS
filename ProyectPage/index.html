@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proyect Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <body>
+    <nav id="navbar">
+      <header>Indice</header>
+        <ul>
+        <li><a class="nav-link" href="#Conceptos_básicos_de_HTML">Conceptos básicos de HTML</a></li>
+        <li><a class="nav-link" href="#C++_Sintaxis">C++ Sintaxis</a></li>
+        <li><a class="nav-link" href="#Javascript">Javascript</a></li>
+        <li><a class="nav-link" href="#Java">Java</a></li>
+        <li><a class="nav-link" href="#Primeros_pasos_en_CSS">Primeros pasos en CSS</a></li>
+        </ul>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Conceptos_básicos_de_HTML">
+        <header>Conceptos básicos de HTML</header>
+        <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.</p>
+        <p>
+        HTML no es un lenguaje de programación; es un lenguaje de marcado que define   la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra.<p>
+        <p>Las partes principales del elemento son:</p>
+        <ol class="html-ol">
+          <li><b>La etiqueta de apertura:</b> consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.</li>
+          <li><b>La etiqueta de cierre:</b> es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.</li>
+          <li><b>El contenido:</b> este es el contenido del elemento, que en este caso es sólo texto.</li>
+          <li><b>El elemento:</b> la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.</li>
+        </ol>
+      </section>
+      <section class="main-section" id="C++_Sintaxis">
+        <header>C++ Sintaxis</header>
+        <h3>Estructura de un programa</h3>
+        <p>La mejor manera de aprender un lenguaje de programación es escribiendo programas. Normalmente, el primer programa que escriben los principiantes es un programa llamado "Hola mundo", que simplemente imprime "Hola mundo" en la pantalla de la computadora. Aunque es muy simple, contiene todos los componentes fundamentales que tienen los programas de C++:</p>
+        <code class="code-c++">
+          // my first program in C++ <br>
+          #include iostream <br>
+
+          int main() { <br>
+            std::cout << "Hello World!";<br>
+          }<br>
+        </code>
+        
+        <h3>Tipos de datos</h3>
+        <p>Los valores de las variables se almacenan en algún lugar no especificado de la memoria del ordenador en forma de ceros y unos. Nuestro programa no necesita saber la ubicación exacta en la que se almacena una variable; puede referirse a ella simplemente por su nombre. Lo que el programa necesita saber es el tipo de datos almacenados en la variable. No es lo mismo almacenar un simple entero que una letra o un gran número de coma flotante; aunque todos se representan mediante ceros y unos, no se interpretan de la misma manera y, en muchos casos, no ocupan la misma cantidad de memoria.</p>
+        <p>Los tipos de datos fundamentales son tipos básicos implementados directamente por el lenguaje que representan las unidades de almacenamiento básicas soportadas de forma nativa por la mayoría de los sistemas. Se pueden clasificar principalmente en:
+          <ul>
+            <li><b>Tipos char:</b> Pueden representar un solo char, como 'A' o '$'. El tipo más básico es char, que es un carácter de un byte. También se proporcionan otros tipos para caracteres más anchos.</li>
+            <li><b>Tipos de números enteros:</b> pueden almacenar un valor numérico entero, como 7 o 1024. Existen en una variedad de tamaños y pueden tener signo o no , dependiendo de si admiten valores negativos o no.</li>
+            <li><b>Tipos de punto flotante:</b> pueden representar valores reales, como 3.14 o 0.01, con diferentes niveles de precisión, dependiendo de cuál de los tres tipos de punto flotante se utilice.</li>
+            <li><b>Tipo booleano:</b> el tipo booleano, conocido en C++ como bool, solo puede representar uno de dos estados, true o false.</li>
+          </ul>
+        </p>
+      </section>
+      <section class="main-section" id="Javascript">
+        <header>Javascript</header>
+        <p>JavaScript es un lenguaje de programación que te permite implementar cosas complejas en páginas web. Cada vez que una página web hace algo más que sentarse ahí y mostrar información estática para que la veas — mostrando actualizaciones de contenido oportunas, mapas interactivos, gráficos animados 2D/3D, desplazando máquinas reproductoras de video, o más, puedes apostar que probablemente JavaScript esté involucrado.</p>
+
+        <h2>JavaScript interno</h2>
+        <p>
+          <ol>
+            <li>En primer lugar, haz una copia local de nuestro archivo de ejemplo apply-javascript.html. Guárdalo en un directorio en algún lugar accesible.</li>
+            <li>Abre el archivo en tu navegador web y en tu editor de texto. Verás que el HTML crea una página web simple que contiene un botón en el que se puede hacer clic.</li>
+            <li>A continuación, ve a tu editor de texto y agrega lo siguiente en tu head, justo antes de tu etiqueta de cierre </head:</li>
+            <li>Ahora agregaremos algo de JavaScript dentro de nuestro elemento script para que la página haga algo más interesante — agrega el siguiente codigo justo debajo de la línea "// El código JavaScript va aquí":</li>
+            <li>Guarda tu archivo y actualiza el navegador — ahora deberías ver que cuando haces clic en el botón, se genera un nuevo párrafo y se coloca debajo.</li>
+          </ol>
+        </p>
+        <code>
+          function createParagraph() { <br>
+          let para = document.createElement("p"); <br>
+          para.textContent = "You clicked the button!"; <br>
+          document.body.appendChild(para); <br>
+          }
+        </code>
+
+        <h2>Ejemplo</h2>
+        <code>
+          const buttons = document.querySelectorAll("button");<br>
+          <br>
+          for (let i = 0; i < buttons.length; i++) { <br>
+          buttons[i].addEventListener("click", createParagraph); <br>
+          }
+        </code>
+
+      </section>
+      <section class="main-section" id="Java">
+        <header>Java</header>
+        <p>Java es un lenguaje de programación orientado a objetos y de tipado estático. Además, es independiente de la plataforma: los programas Java se pueden escribir y compilar en un tipo de máquina, como un sistema Windows, y ejecutar en otro, como MacOS, sin ninguna modificación del código fuente.
+
+En este tutorial, veremos y comprenderemos los conceptos básicos de la sintaxis de Java.</p>
+
+        <h3>Tipos de datos</h3>
+        <p>Hay dos grandes categorías de tipos de datos en Java: tipos primitivos y tipos de objetos/referencias .
+
+Los tipos primitivos son los tipos de datos básicos que almacenan datos simples y forman la base de la manipulación de datos. Por ejemplo, Java tiene tipos primitivos para valores enteros ( int, long,  byte, short ) ,  valores de punto flotante ( float y double ) ,  valores de carácter ( char ) y valores lógicos ( boolean ).
+
+Por otro lado, los tipos de referencia son objetos que contienen referencias a valores y/o otros objetos , o al valor especial null para denotar la ausencia de valor.<br>
+La clase String  es un buen ejemplo de un tipo de referencia. Una instancia de la clase, denominada objeto, representa una secuencia de caracteres, como “Hola mundo”.</p>
+        <h3>Declaración de variables en Java</h3>
+        <p>Para declarar una variable en Java, debemos especificar su nombre (también llamado identificador) y tipo . Veamos un ejemplo sencillo:<br>
+        <code>
+          <br>
+          int a; <br>
+          int b; <br>
+          double c; <br>
+        </code>
+        </p>
+        <p>
+          En el ejemplo anterior, las variables recibirán valores iniciales predeterminados según sus tipos declarados. Dado que declaramos que nuestras variables son  int y double , tendrán un valor predeterminado de 0 y 0.0, respectivamente.<br>
+          <br>
+Alternativamente, podemos utilizar el operador de asignación (=) para inicializar variables durante la declaración:
+          <br>
+        <code>
+          <br>
+          int a = 10; <br>
+        </code>
+        </p>
+      </section>
+      <section class="main-section" id="Primeros_pasos_en_CSS">
+        <header>Primeros pasos en CSS</header>
+        <p>CSS (Cascading Style Sheets - en español Hojas de Estilo en Cascadas) es usado para darle estilo y diseño a las páginas Web — por ejemplo, para cambiar la fuente de letra, color, tamaño y el espaciado de tu contenido; dividir en múltiples columnas, o agregar animaciones y otras propiedades decorativas. Este modulo provee un inicio suave para tu ruta de aprendizaje hacia el dominio de CSS con su funcionamiento básico, como luce su sintaxis, y cómo puedes comenzar a utilizarlo y añadir estilo a HTML.
+          <br>
+          
+        </p>
+      </section>
+      
+    </main>
+  </body>
+</html>
