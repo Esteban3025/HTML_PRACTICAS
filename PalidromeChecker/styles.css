@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #111122;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+#app {
+  background-color: #ffffff;
+  color: black;
+  margin: 3rem 0 1rem 34rem;
+  padding: 1rem 0 1rem 0;
+  width: 450px;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0px 6px 6px #002ead;
+}
+
+#app-title, #text-input {
+  margin-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#result {
+  font-size: 1.5rem;
+}
+
+#text-input {
+  border: none;
+  border-bottom: 2.5px solid #002ead;
+  width: 15rem;
+  height: 1.5rem; 
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#check-btn {
+  border-radius: 3rem;
+  padding: 5px 1rem 5px 1rem;
+  background-color: #002ead;
+  color: white;
+  border: solid #002ead;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#rules {
+  background-color: #228833;
+  color: white;
+  margin: 3rem 0 1rem 34rem;
+  padding: 15px 1rem 1rem 1rem;
+  width: 450px;
+  height: 153px;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: .1.3rem;
+  line-height: 28px;
+}
+
+#icon {
+  font-size: 2rem;
+}
